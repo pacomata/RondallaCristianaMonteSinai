@@ -121,6 +121,10 @@ aside .widget p{
 	line-height: 27px;
 }
 
+.main .audio audio{
+	width: 100%;
+}
+
 footer{
 	width: 70%;
 	clear: both;
