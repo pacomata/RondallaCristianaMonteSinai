@@ -20,7 +20,7 @@ body{
 }
 
 header{
-	background: #ec6a58;
+	background: #264b94;
 }
 
 header nav{
@@ -34,7 +34,7 @@ header nav ul{
 }
 
 header nav ul li{
-	float: left;
+	float:right;
 }
 
 header nav ul li a{
@@ -45,7 +45,7 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-	background: #000;
+	background: #0b057a;
 }
 
 .main{
@@ -80,7 +80,10 @@ header nav ul li a:hover{
 	margin-bottom: 15px;
 	line-height: 20px;
 }
-
+.justify{
+	font-family: arial, sans-serif;
+	font-size: 16px;
+}
 aside{
 	width: 30%;
 	background: #24313c;
@@ -94,8 +97,8 @@ aside .widget{
 }
 
 aside .widget .titulo{
-	color: #ff8000;
-	border-bottom: 1px solid #ff8000;
+	color: #216ef2;
+	border-bottom: 1px solid #216ef2;
 	margin-bottom: 10px;
 }
 
@@ -121,7 +124,7 @@ aside .widget p{
 	line-height: 27px;
 }
 
-.main .audio audio{
+ audio{
 	width: 100%;
 }
 
@@ -138,7 +141,9 @@ footer{
 	.main{
 		width: 100%;
 	}
-
+	header nav {
+		width: 100%
+	}
 	aside{
 		width: 100%;
 	}
