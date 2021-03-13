@@ -34,7 +34,7 @@ header nav ul{
 }
 
 header nav ul li{
-	float:right;
+	float:left;
 }
 
 header nav ul li a{
