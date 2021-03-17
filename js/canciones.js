@@ -135,13 +135,97 @@ switch (numero) {
 				¿Quién está dispuesto a servir?<br/>
 				¿Quién dirá Señor heme aquí?<br/>
 				¿Quién de entre nosotros llevará las buenas nuevas?<br/>
-				hermosos son los pues de los que anuncian paz.
-				`;
+				hermosos son los pues de los que anuncian paz.`;
+				break;
+		case 6:
+				html+=`Te alabaré oh Señor con tada mi razón<br/>
+				yo contaré Señor tus maravillas, yo contaré<br/>
+				yo tus maravillas siempre hablaré<br/>
+				todas tus maravillas yo contaré, yo contaré<br/>
+				por amor a ti Señor.<br/><br/>
+				Aunque el malo me proponga, aunque el malo me persiga<br/>
+				Señor tu nombre conservaré, yo tu voluntad haré.<br/><br/>
+				Me alegraré oh Señor, me regocijo en ti<br/>
+				yo cantaré Señor tus bendiciones, yo cantaré<br/>
+				todas tus bendiciones yo hablaré<br/>
+				todas tus bendiciones yo mostraré, yo mostraré<br/>
+				por amor a ti lo haré<br/><br/>
+				De su gran justicia yo hablaré<br/>
+				toda su gran justicia nos mostrará<br/>
+				te juzgará con justicia el Señor lo hará<br/>
+				con toda rectitud el hará<br/>
+				El Señor asi lo hará.<br/><br/>
+				Aunque el malo me proponga, aunque el malo me persiga<br/>
+				El Señor siempre, me cuidará, la victoria me dará<br/>
+				El gran Señor, el lo hará.`;
+				break;
+		case 7:
+				html+=`No existe en la vida tanto amor<br/>
+				comparable amigo con el de Jesús<br/>
+				No existe en la vida un amigo eterno<br/>
+				un amigo puro como mi Señor.<br/><br/>
+				Jesucristo ofrece vida y plenitud<br/>
+				con favor de nuestra pobre aflicción<br/>
+				y no hay esperanza despues de la vida<br/>
+				despues de la vida si no tienes a Dios.<br/><br/>
+				Señor (Señor) entra en mi vida<br/>
+				Señor (Señor) entra en mi ser<br/>
+				Señor (Jesús) entra en mi tiempo<br/>
+				amoroso Cristo de ti quiero ser.<br/><br/>
+				No existe poder más piadoso y Santo<br/>
+				que aquel mostrado por mi gran Señor<br/>
+				nada tiene brillo cómo el de su Rostro<br/>
+				nada tiene brillo de su esplendor.<br/><br/>
+				Ven amigo al Cristo nuestro redentor<br/>
+				hoy ha llamado ven atiende hoy<br/>
+				levanta tu mano a favor de tu alma<br/>
+				busca hoy a Cristo el tiene el poder.<br/>`;
+				break;
+		case 8:
+				html+=`Mirando hacia el cielo estás y no te puedes explicar<br/>
+				la maravilla del Señor, de que un día te hará volar<br/>
+				las señales ya se ven, las profesias cumpliendose están<br/>
+				porque muy pronto volverá, Jesucristo a la puerta ya está.<br/><br/>
+				Más aun vives aquí en este mundo de maldad<br/>
+				y mientras estés aquí la salvación debes de anunciar<br/>
+				cristiano levantate, en el nombre del Señor esfuerzate<br/>
+				ya no mires tu aflicción tu confianza sea en el Señor<br/>
+				cristiano levantate aunque el maligno te aceche, esfuerzate<br/>
+				haciendo el bien vencerás el mal y al final Cristo la victoria te dará<br/><br/>
+				La esperanza es Jesús y lo esperas con gran fe<br/>
+				que con gran gloria y poder verás a Cristo descender.`;
+				break;
+		case 9:
+				html+=`¿Cómo no estar agradecida con el Señor Dios<br/>
+		  	de los cielos por todo lo que tienes?<br/>
+				hoy por su gracia recibes bendición<br/>
+				quinceaños te brindó, cómo no agradecer.<br/><br/>
+				Porque una nueva etapa hoy comienzas en tu vida<br/>
+				se una ofrenda para Dios<br/>
+				En esta nueva etapa tu fe mantenla firme<br/>
+				jamás te alejes del Señor<br/>
+				¡Quinceañera felicidades!<br/><br/>
+				Hoy tus padres le dan gracias al Creador por haber<br/>
+				cuidado de ti, de la infancia hasta el dia de hoy<br/>`;
+				break;
+		case 10:
+				html+=`Un día llegué a este lugar donde se predica la palabra de Dios<br/>
+				Él tocó mi corazón y enseguida acepté a Jesús como mi Salvador<br/>
+				Fue entonces ahí donde te conocí y nunca pensé que fueras hacer tú<br/>
+				la que Dios pusiera en mi camino para estar delante de Él en el altar.<br/><br/>
+				La boda celebrando hoy bajo la voluntad del Señor<br/>
+				Dios nos unió para amarnos construir una vida<br/>
+				juntos sirviendole de todo corazón<br/>
+				el amor es sin final soplarán tempestades las pruebas vendrán<br/>
+				nuestra llama de amor ni las muchas aguas podrán apagar<br/>
+				El amor es sin final.<br/><br/>
+				Disfrutamos en Cristo de nuestra juventud<br/>
+				honramos nuestros padres obedientes a Jesús<br/>
+				y con gratitud hoy venimos delante de Él en el altar.`;
 				break;
 		default:
 				html+=`Letra de la Canción 5`;
 				break;
 }
-
 box_music.innerHTML=html;
 }
