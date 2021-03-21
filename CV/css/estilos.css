@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #7e7d7d;/* #000 url(../imagenes/fondo.jpg);*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    margin: 50px auto;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    display: flex;
+    flex-direction:row-reverse;/*row: se ponen a lado del uno del otro*/
+    flex-wrap: wrap;/*lo que no cabe se pone abajo*/
+}
+
+header{
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:initial;
+}
+
+header .datos h1{
+    color:#090981;
+    padding: 0 20px;
+}
+
+header .datos p{
+    padding: 0 20px;
+}
+
+.main{
+    padding: 0 30px;
+    width: 70%;;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main article .laboral, .educacion, .informatica ul{
+	margin-bottom: 20px;
+    list-style: none;
+}
+
+.main article h3{
+    margin-top: 20px;
+	font-weight:bolder;
+    font-size: 16px;
+}
+
+.main  article p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+ .main hr{
+    border-color: #537dca;
+}
+
+aside{
+    width: 25%;
+    background: #537dca;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+aside hr{
+    border-color: #000;
+    margin-bottom: 20px;
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+}
+aside .intereses ul, .objetivo ul, .aptitudes ul{
+    list-style: none;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.main{
+		width: 100%;
+	}
+
+    aside{
+        width: 100%;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    aside .intereses, .aptitudes, .objetivo{
+        font-size: 10px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+	.main{
+		width: 100%;
+	}
+
+    aside{
+        width: 100%;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    aside .intereses, .aptitudes, .objetivo{
+        font-size: 8px;
+        padding: 0 20px;
+    }
+}
