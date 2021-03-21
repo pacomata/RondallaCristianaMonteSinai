@@ -126,3 +126,21 @@ aside .intereses ul, .objetivo ul, .aptitudes ul{
         padding: 0 20px;
     }
 }
+
+@media screen and (max-width: 300px) {
+	.main{
+		width: 100%;
+	}
+
+    aside{
+        width: 100%;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    aside .intereses, .aptitudes, .objetivo{
+        font-size: 6px;
+        padding: 0 20px;
+    }
+}
