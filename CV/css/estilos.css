@@ -109,10 +109,10 @@ aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
     aside{
         width: 100%;
         flex-direction: row;
-        
     }
 
     aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
+        
         color: #fff;
         font-size: 12px;
         text-decoration: none;
@@ -127,11 +127,12 @@ aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
 
     aside{
         width: 100%;
-        flex-direction: row;
-        
+        flex-direction: column; 
     }
 
     aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
+        width: 100%;
+        flex-direction: column;
         color: #fff;
         font-size: 10px;
         text-decoration: none;
