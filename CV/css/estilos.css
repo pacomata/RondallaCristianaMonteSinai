@@ -76,7 +76,7 @@ aside{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-   padding: 20px;
+    padding: 20px;
 }
 
 aside  .titulo{
@@ -109,6 +109,7 @@ aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
     aside{
         width: 100%;
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     aside .titulo{
