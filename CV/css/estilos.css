@@ -70,77 +70,34 @@ header .datos p{
 
 aside{
     width: 25%;
-    background: #537dca;
+    background: #264b94;
     margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 50px 0;
+   padding: 20px;
 }
 
-aside hr{
-    border-color: #000;
-    margin-bottom: 20px;
-    width: 50%;
-    display: flex;
-    margin-left: 25%;
+aside  .titulo{
+	color: #071836;
+	border-bottom: 1px solid #071836;
+	margin-bottom: 10px;
 }
+
 aside .intereses ul, .objetivo ul, .aptitudes ul{
     list-style: none;
-    text-align: center;
+    font-size: 10px;
 }
 
-@media screen and (max-width: 600px) {
-	.main{
-		width: 100%;
-	}
-
-    aside{
-        width: 100%;
-        flex-direction: row;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    aside .intereses, .aptitudes, .objetivo{
-        font-size: 10px;
-        padding: 0 20px;
-    }
+aside .intereses ul li, .objetivo ul li, .aptitudes ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
 }
 
-@media screen and (max-width: 550px) {
-	.main{
-		width: 100%;
-	}
-
-    aside{
-        width: 100%;
-        flex-direction: row;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    aside .intereses, .aptitudes, .objetivo{
-        font-size: 8px;
-        padding: 0 20px;
-    }
+aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
 }
 
-@media screen and (max-width: 300px) {
-	.main{
-		width: 100%;
-	}
-
-    aside{
-        width: 100%;
-        flex-direction: row;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    aside .intereses, .aptitudes, .objetivo{
-        font-size: 6px;
-        padding: 0 20px;
-    }
-}
