@@ -101,3 +101,40 @@ aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
     text-decoration: none;
 }
 
+@media screen and (max-width: 600px){
+    .main{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+        flex-direction: row;
+        
+    }
+
+    aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+    }
+}
+
+/*--------------------*/
+@media screen and (max-width: 500px){
+    .main{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+        flex-direction: row;
+        
+    }
+
+    aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
+        color: #fff;
+        font-size: 10px;
+        text-decoration: none;
+    }
+}
+
