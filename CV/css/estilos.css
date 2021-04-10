@@ -19,121 +19,112 @@ body{
     max-width: 800px;
     background: #fff;
     display: flex;
-    flex-direction:row-reverse;/*row: se ponen a lado del uno del otro*/
+    flex-direction:row;/*row: se ponen a lado del uno del otro*/
     flex-wrap: wrap;/*lo que no cabe se pone abajo*/
 }
 
 header{
-    width: 100%;
-    padding: 40px 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
-    align-items:initial;
-}
-
-header .datos h1{
-    color:#090981;
-    padding: 0 20px;
-}
-
-header .datos p{
-    padding: 0 20px;
-}
-
-.main{
-    padding: 0 30px;
-    width: 70%;;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.main article .laboral, .educacion, .informatica ul{
-	margin-bottom: 20px;
-    list-style: none;
-}
-
-.main article h3{
-    margin-top: 20px;
-	font-weight:bolder;
-    font-size: 16px;
-}
-
-.main  article p{
-    font-size: 14px;
-    line-height: 20px;
-}
-
- .main hr{
-    border-color: #537dca;
-}
-
-aside{
-    width: 25%;
-    background: #264b94;
-    margin-bottom: 60px;
+    width: 35%;
+    padding: 0px 0px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+    background: #182f5f;
+    text-align: center;
 }
 
-aside  .titulo{
-	color: #071836;
-	border-bottom: 1px solid #071836;
-	margin-bottom: 10px;
+header .grosor{
+    border: none; 
+    height: 7px;
+    color: #fff;
+    background-color: #fff;
 }
 
-aside .intereses ul, .objetivo ul, .aptitudes ul{
+header .perfil{
+    margin-top: 50px;
+}
+
+header .datos, .datos2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header .datos, .datos2{
+    font-family: Arial;
+    color: #fff;
+}
+
+header .titulo{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+header .intereses, .objetivo, .aptitudes{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+header .intereses ul, .objetivo ul, .aptitudes ul{
     list-style: none;
-    font-size: 10px;
 }
 
-aside .intereses ul li, .objetivo ul li, .aptitudes ul li{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 10px 0;
-}
-
-aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
+header .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{
     color: #fff;
     font-size: 16px;
     text-decoration: none;
 }
 
-@media screen and (max-width: 600px){
-    .main{
-        width: 100%;
-    }
-
-    aside{
-        width: 100%;
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-
-    aside .titulo{
-        margin-top: 20px;
-    }
-
-    aside .intereses ul li a, .objetivo ul li a, .aptitudes ul li a{   
-        color: #fff;
-        font-size: 12px;
-        text-decoration: none;
-    }
+header .espacio{
+    padding: 40px;
 }
-/*--------------------*/
-@media screen and (max-width: 450px){
-    header {
-        
-        flex-direction: column;
-    }
 
-    header .datos h1{
-        padding: 0 0px;
-    }
-    header .datos p{
-        padding: 0 0px;
-    }
+
+.main{
+    padding: 0px 0px;
+    width: 65%;;
 }
+
+.main .encabezados{
+    margin-left: 1px; 
+    background: linear-gradient(to right, #182f5f, #182f5f, white);
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.main h2{
+    padding: 5px 20px;
+}
+
+.main h3{
+    margin-left: 5px;
+    color: #102f70;
+}
+
+.main .margen{
+    margin-bottom: 15px;
+}
+
+.main p{
+    margin-left: 5px;
+    color: #414040;
+}
+
+.main .laboral .btn-fechas, .educacion .btn-fechas{
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-top: 0;
+    padding: 2px 5px;
+    background: #525252;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.main .informatica ul{
+    list-style: none;
+    margin-left: 5px;
+    color: #414040;
+}
+
+
 
