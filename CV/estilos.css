@@ -126,5 +126,18 @@ header .espacio{
     color: #414040;
 }
 
+@media screen and (max-width: 450px){
+    header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    
+}
 
 
