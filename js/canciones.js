@@ -90,7 +90,7 @@ switch (numero) {
 				html+=`De Jehova es la tierra y su plenitud<br/>
 				el mundo y los que en Él habitan<br/>
 				Porque Él la fundó sobre los mares<br/>
-				y la firmó sobre los rios<br/><br/>
+				y la afirmó sobre los rios<br/><br/>
 				//¿Quién subirá al monte de Jehova?<br/>
 				¿Y quién a su lugar santo?//<br/>
 				//El limpio de manos y de corazón<br/>
