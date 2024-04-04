@@ -1,0 +1,115 @@
+
+.letras{
+	width: 100%;	
+	max-width: 1500px;
+	margin: auto;
+	overflow: hidden;
+	background: #f2f2f2;
+}
+
+.main{
+	width: 70%;
+	float:right
+}
+
+.main .posts{
+	padding: 40px;
+}
+
+.main .posts article h1{
+	margin-bottom: 15px;
+	color: #424242;
+}
+
+.main .posts article h2{
+	margin-bottom: 15px;
+}
+
+.justify{
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.info{
+	background: #f2f2f2;
+	padding: 20px;
+}
+.justify2{
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	
+}
+
+aside{
+	width: 30%;
+	height:auto;
+	background: #24313c;
+	padding: 20px;
+	color: #fff;
+	float: left;
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget .titulo{
+	color: #216ef2;
+	border-bottom: 1px solid #216ef2;
+	margin-bottom: 10px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 10px 0;
+	
+}
+
+aside .widget ul li a{
+	color: #fff;
+	text-decoration: none;
+	margin: left
+}
+
+aside .widget ul li a:hover{
+	color: #8f8f8f;
+}
+
+aside .widget p{
+	line-height: 27px;
+}
+
+
+footer{
+	width: 100%;
+	clear: both;
+	background: #000;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+
+@media screen and (max-width:800px){
+	.main{
+		width: 100%;
+	}
+	header nav {
+		width: 100%
+	}
+	aside{
+		width: 100%;
+	}
+
+	footer{
+		width: 100%;
+	}
+}
