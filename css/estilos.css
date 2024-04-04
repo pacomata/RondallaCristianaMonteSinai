@@ -1,66 +1,15 @@
-*{
-	padding: 0;
-	margin: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
 
-body{
-	font-family: arial, sans-serif;
-	font-size: 16px;
-	background: #444444;
-}
-
-.contenedor{
-	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
+.letras{
+	width: 100%;	
+	max-width: 1500px;
+	margin: auto;
 	overflow: hidden;
-}
-
-header{
-	background: #264b94;
-}
-
-header nav{
-	width: 1000px;
-}
-
-header nav ul{
-	width: 100%;
-	overflow: hidden;
-	list-style: none;
-}
-
-header nav ul li{
-	float:left;
-}
-
-header nav ul li a{
-	text-decoration: none;
-	display: inline-block;
-	padding: 15px 20px;
-	color: #fff;
-}
-
-header nav ul li a:hover{
-	background: #0b057a;
+	background: #f2f2f2;
 }
 
 .main{
 	width: 70%;
-	background: #fff;
-	float: left;
-}
-
-.main .imagen{
-	width: 100%;
-}
-
-.main .imagen img{
-	width: 100%;
-	vertical-align: top;
+	float:right
 }
 
 .main .posts{
@@ -76,16 +25,29 @@ header nav ul li a:hover{
 	margin-bottom: 15px;
 }
 
-.main .posts article p{
-	margin-bottom: 15px;
-	line-height: 20px;
-}
 .justify{
 	font-family: arial, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
 }
+
+.info{
+	background: #f2f2f2;
+	padding: 20px;
+}
+.justify2{
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	
+}
+
 aside{
 	width: 30%;
+	height:auto;
 	background: #24313c;
 	padding: 20px;
 	color: #fff;
@@ -109,11 +71,13 @@ aside .widget ul{
 aside .widget ul li{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	padding: 10px 0;
+	
 }
 
 aside .widget ul li a{
 	color: #fff;
 	text-decoration: none;
+	margin: left
 }
 
 aside .widget ul li a:hover{
@@ -124,12 +88,9 @@ aside .widget p{
 	line-height: 27px;
 }
 
- audio{
-	width: 100%;
-}
 
 footer{
-	width: 70%;
+	width: 100%;
 	clear: both;
 	background: #000;
 	color: #fff;
