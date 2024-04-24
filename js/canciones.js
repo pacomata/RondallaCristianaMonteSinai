@@ -8,6 +8,8 @@ const enlace07= document.getElementById('box7');
 const enlace08= document.getElementById('box8');
 const enlace09= document.getElementById('box9');
 const enlace010= document.getElementById('box10');
+const enlace011= document.getElementById('box11');
+const enlace012= document.getElementById('box12');
 const box_music=document.getElementById('box_music');
 const title_music=document.getElementById('title_music');
 
@@ -51,6 +53,13 @@ enlace010.addEventListener('click', function(){
     cambiarCancion(10);
     cambiarTituloDeCancion("El amor es sin final");
 })
+enlace011.addEventListener('click', function(){
+    cambiarCancion(11);
+    cambiarTituloDeCancion("Grande es su amor");
+})
+enlace012.addEventListener('click', function(){
+    cambiarCancion(12);
+    cambiarTituloDeCancion("Pelea la buena batalla");
 // ===========	 Declarar funciones 	=======================
 // ===========	 Función para cambiar el titulo 	=======================
 /* Recibe como parametro el titulo a colocar */
@@ -223,6 +232,53 @@ switch (numero) {
 				honramos nuestros padres obedientes a Jesús<br/>
 				y con gratitud hoy venimos delante de Él en el altar.`;
 				break;
+		case 11:
+				html+=`Me encontró con un corazón<br/>
+				Qué no conocia de Dios<br/>
+				Y me invitó a creer en en Él<br/>
+				Vida eterna te doy<br/><br/>
+				Y de ahí hasta hoy<br/>
+				Le sirvo con todo el corazón<br/>
+				Porque Jesús me amó<br/>
+				Sin alguna distinción de amor<br/>
+				Un dia murió más resucitó<br/>
+				Para asi decretar su redención<br/>
+				Sufrió por ti y por mi<br/>
+				Porque grande fue su amor<br/><br/>
+				En las moradas celestiales<br/>
+				Un dia con Cristo estaré<br/>
+				Está preparando un lugar especial<br/>
+				Un dia Cristo volverá<br/><br/>
+				Por todo aquél que por fé<br/>
+				Puso su confianza en Él<br/>
+				Y le aceptó en su corazón<br/>
+				Cómo Señor y Salvador<br/>
+				Un dia murió más resucitó<br/>
+				Para asi decretar su redención<br/>
+				Sufrió por ti y por mi<br/>
+				Porque grande fue su amor<br/><br/>
+				grande fue es amor`;
+				break;	
+		case 12:
+				html+=`La iglesia sigue caminando porque Jesús con su pueblo está<br/>
+				hombre de Dios sigamos la justicia la piedad, la fé y el amor<br/>
+				Sigamos hacia delante que el Señor con nosotros está<br/>
+				Poniendo nuestra mirada solo en Cristo el Señor<br/>
+				hombre de Dios no permitas que entre la mentira y perversidad<br/>
+				quitemos de nuestras vidas todo odio, rencor, falta de perdón<br/>
+				Sigamos hacia delante que el Señor con nosotros está<br/> 
+				Poniendo nuestra mirada solo en Cristo el Señor<br/><br/>
+				Pelea la buena batalla de la fe (echa mano de la vida eterna en Él)<br/>
+				esfuérzate en la gracia que es en Cristo Jesús<br/>
+				si sufrimos penalidades por el (como si fuera a modo de un malhechor)<br/>
+				recuerda que el Señor por nosotros sufrió y murió<br/>
+				Fue sepultado y al tercer día el Señor resucitó<br/><br/>
+				Pelea la buena batalla de la fe (echa mano de la vida eterna en Él)<br/>
+				esfuérzate en la gracia que es en Cristo Jesús<br/><br/>
+				Cómo buen soldado de Cristo Jesús sigue firme y adelante <br/>
+				con la ayuda de Él, con la ayuda de Dios, caminando con nuestro Dios<br/> 
+				con la ayuda de Dios`;
+				break;	
 		default:
 				html+=`Letra de la Canción 5`;
 				break;
