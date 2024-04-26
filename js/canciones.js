@@ -60,6 +60,7 @@ enlace011.addEventListener('click', function(){
 enlace012.addEventListener('click', function(){
     cambiarCancion(12);
     cambiarTituloDeCancion("Pelea la buena batalla");
+})
 // ===========	 Declarar funciones 	=======================
 // ===========	 Función para cambiar el titulo 	=======================
 /* Recibe como parametro el titulo a colocar */
@@ -206,7 +207,7 @@ switch (numero) {
 				break;
 		case 9:
 				html+=`¿Cómo no estar agradecida con el Señor Dios<br/>
-		  	        de los cielos por todo lo que tienes?<br/>
+		  	de los cielos por todo lo que tienes?<br/>
 				hoy por su gracia recibes bendición<br/>
 				quinceaños te brindó, cómo no agradecer.<br/><br/>
 				Porque una nueva etapa hoy comienzas en tu vida<br/>
@@ -278,10 +279,11 @@ switch (numero) {
 				Cómo buen soldado de Cristo Jesús sigue firme y adelante <br/>
 				con la ayuda de Él, con la ayuda de Dios, caminando con nuestro Dios<br/> 
 				con la ayuda de Dios`;
-				break;	
+				break;			
 		default:
 				html+=`Letra de la Canción 5`;
 				break;
 }
 box_music.innerHTML=html;
 }
+
