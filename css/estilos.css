@@ -12,10 +12,6 @@
 	float:right
 }
 
-.main .posts{
-	padding: 40px;
-}
-
 .main .posts article h1{
 	margin-bottom: 15px;
 	color: #424242;
@@ -27,9 +23,9 @@
 
 .justify{
 	font-family: arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 .info{
