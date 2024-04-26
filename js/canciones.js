@@ -234,10 +234,8 @@ switch (numero) {
 				y con gratitud hoy venimos delante de Él en el altar.`;
 				break;
 		case 11:
-				html+=`Me encontró con un corazón<br/>
-				Qué no conocia de Dios<br/>
-				Y me invitó a creer en en Él<br/>
-				Vida eterna te doy<br/><br/>
+				html+=`Me encontró con un corazón qué no conocia de Dios<br/>
+				Y me invitó a creer en en Él vida eterna te doy<br/><br/>
 				Y de ahí hasta hoy<br/>
 				Le sirvo con todo el corazón<br/>
 				Porque Jesús me amó<br/>
@@ -246,10 +244,8 @@ switch (numero) {
 				Para asi decretar su redención<br/>
 				Sufrió por ti y por mi<br/>
 				Porque grande fue su amor<br/><br/>
-				En las moradas celestiales<br/>
-				Un dia con Cristo estaré<br/>
-				Está preparando un lugar especial<br/>
-				Un dia Cristo volverá<br/><br/>
+				En las moradas celestiales un dia con Cristo estaré<br/>
+				Está preparando un lugar especial un dia Cristo volverá<br/><br/>
 				Por todo aquél que por fé<br/>
 				Puso su confianza en Él<br/>
 				Y le aceptó en su corazón<br/>
@@ -258,7 +254,7 @@ switch (numero) {
 				Para asi decretar su redención<br/>
 				Sufrió por ti y por mi<br/>
 				Porque grande fue su amor<br/><br/>
-				grande fue es amor`;
+				Grande es su amor`;
 				break;	
 		case 12:
 				html+=`La iglesia sigue caminando porque Jesús con su pueblo está<br/>
